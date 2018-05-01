@@ -1,0 +1,52 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "babel",
+    "react",
+    "promise",
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false,
+    "__DEBUG__": false,
+    "__COVERAGE__": false,
+    "__BASENAME__": false,
+    "Generator": true
+  },
+  "rules": {
+    "babel/generator-star-spacing": 0,
+    "camelcase": [0, {
+      "properties": "always"
+    }],
+    "comma-dangle": [1, "always-multiline"],
+    "generator-star-spacing": 0,
+    "indent": [0],
+    "jsx-quotes": [0],
+    "max-len": [0],
+    "no-var": 2,
+    "no-duplicate-imports": [0, {
+      "includeExports": false
+    }],
+    "react/jsx-curly-spacing": [0],
+    "react/jsx-indent": [0],
+    "react/jsx-no-bind": [0, {
+      "ignoreRefs": true,
+      "allowArrowFunctions": false,
+      "allowBind": false
+    }],
+    "react/self-closing-comp": [0],
+    "semi": [2, "never"],
+    "space-before-function-paren": 0,
+    "spaced-comment": [0],
+    "standard/computed-property-even-spacing": [0],
+    "yield-star-spacing": [0],
+  }
+}
