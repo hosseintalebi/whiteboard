@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Editor from './views/Editor/Editor'
-import './App.css';
+import './App.css'
 import 'material-components-web/dist/material-components-web.css'
 
 class App extends Component {
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
