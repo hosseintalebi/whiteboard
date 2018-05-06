@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Editor from 'views/Editor/Editor'
+import Editor from './views/Editor/Editor'
 import './App.css'
 import 'material-components-web/dist/material-components-web.css'
 
